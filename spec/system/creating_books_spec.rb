@@ -1,13 +1,15 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
-RSpec.describe "CreatingBooks", type: :system do
+RSpec.describe 'CreatingBooks', type: :system do
   before do
     driven_by(:rack_test)
   end
 
   it 'saves and displays the inputted book title' do
     visit '/books/new'
-    
+
     fill_in 'Title', with: 'The Diary of a Wimpy Kid'
     # fill_in 'Author', with: 'Jeff Kinney'
     # fill_in 'Price', with: '7.79'
@@ -50,5 +52,4 @@ RSpec.describe "CreatingBooks", type: :system do
     expect(book.price).to eq(7.79)
     expect(book.published_date).to eq(Date.new(2007, 1, 1))
   end
-
 end
