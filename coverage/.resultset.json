@@ -3,30 +3,13 @@
     "coverage": {
       "/csce431/book_collection/spec/system/creating_books_spec.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
-          3,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
           null,
           null,
           1,
           null,
           1,
-          null,
           1,
-          1,
-          null,
-          null,
-          null,
+          4,
           null,
           null,
           1,
@@ -34,6 +17,25 @@
           null,
           1,
           null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
           1,
           null,
           null,
@@ -50,6 +52,15 @@
           1,
           null,
           1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -61,6 +72,8 @@
       },
       "/csce431/book_collection/spec/rails_helper.rb": {
         "lines": [
+          null,
+          null,
           null,
           1,
           1,
@@ -132,6 +145,8 @@
       "/csce431/book_collection/config/environment.rb": {
         "lines": [
           null,
+          null,
+          null,
           1,
           null,
           null,
@@ -140,6 +155,8 @@
       },
       "/csce431/book_collection/config/application.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -166,6 +183,8 @@
       },
       "/csce431/book_collection/config/boot.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -174,6 +193,8 @@
       },
       "/csce431/book_collection/config/environments/test.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           null,
@@ -241,6 +262,8 @@
           null,
           null,
           null,
+          null,
+          null,
           1,
           null,
           null,
@@ -278,11 +301,15 @@
           null,
           null,
           null,
+          null,
+          null,
           null
         ]
       },
       "/csce431/book_collection/config/initializers/filter_parameter_logging.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -295,6 +322,8 @@
       },
       "/csce431/book_collection/config/initializers/inflections.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -325,11 +354,18 @@
           null,
           null,
           null,
+          null,
+          null,
           null
         ]
       },
       "/csce431/book_collection/config/routes.rb": {
         "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
           1,
           1,
           null,
@@ -337,37 +373,39 @@
           null,
           null,
           1,
-          1,
-          null,
-          null,
           null
         ]
       },
       "/csce431/book_collection/app/helpers/application_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/csce431/book_collection/app/helpers/books_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/csce431/book_collection/app/controllers/books_controller.rb": {
         "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
           1,
           1,
           null,
           null,
-          1,
-          0,
-          null,
-          null,
           null,
           1,
-          null,
           null,
           null,
           1,
@@ -376,7 +414,6 @@
           null,
           null,
           1,
-          null,
           null,
           null,
           1,
@@ -422,6 +459,7 @@
           null,
           1,
           null,
+          null,
           1,
           3,
           null,
@@ -435,24 +473,30 @@
       },
       "/csce431/book_collection/app/controllers/application_controller.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/csce431/book_collection/app/models/book.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/csce431/book_collection/app/models/application_record.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1725631604
+    "timestamp": 1725898724
   }
 }
