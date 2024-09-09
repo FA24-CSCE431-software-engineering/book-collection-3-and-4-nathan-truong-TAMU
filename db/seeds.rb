@@ -16,3 +16,4 @@ elsif Rails.env.test?
 
 else
     load Rails.root.join('db/seeds/production.rb')
+end
