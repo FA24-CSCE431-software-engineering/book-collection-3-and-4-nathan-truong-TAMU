@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :user_books
+  resources :users
   resources :books do
     # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
     member do
@@ -9,5 +11,5 @@ Rails.application.routes.draw do
   end
 
   # Defines the root path route ("/")
-  root "books#index"
+  root "user_books#index"
 end
