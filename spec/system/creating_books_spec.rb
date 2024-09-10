@@ -52,4 +52,14 @@ RSpec.describe 'CreatingBooks', type: :system do
     expect(book.price).to eq(7.79)
     expect(book.published_date).to eq(Date.new(2007, 1, 1))
   end
+
+  it 'checks for seeded information in test database' do
+    visit '/books'
+
+    expect(page).to have_content('Testing')
+    expect(page).to have_content('Mr. Testing')
+    expect(page).to have_content('99999.99')
+    expect(page).to have_content('1453-01-01')
+  end
+  
 end

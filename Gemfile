@@ -78,3 +78,4 @@ end
 gem 'brakeman'
 gem 'rubocop'
 gem 'yaml_db'
+gem 'seed_dump'
